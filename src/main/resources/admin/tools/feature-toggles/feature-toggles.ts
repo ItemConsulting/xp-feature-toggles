@@ -16,7 +16,7 @@ import type { Request, Response } from "@enonic-types/core";
 import type { FreemarkerParams } from "./feature-toggles.freemarker";
 
 const LOCALE_DEFAULT = "en";
-const view = resolve("feature-toggles.ftl");
+const view = resolve("feature-toggles.ftlh");
 
 type RequestParams = {
   params: {

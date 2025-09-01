@@ -11,7 +11,7 @@
 [#-- @ftlvariable name="feature.createdDate" type="java.time.ZonedDateTime" --]
 [#-- @ftlvariable name="feature.isDraftAndMasterSame" type="Boolean" --]
 [#-- @ftlvariable name="noFeaturesMessage" type="String" --]
-[#import "../../views/toggle/toggle.ftl" as Toggle]
+[#import "../../views/toggle/toggle.ftlh" as Toggle]
 
 [#setting locale=locale]
 
@@ -34,7 +34,7 @@
 <body>
 <div class="feature-toggles">
   <div class="layout--header theme-brand1">
-    [#include "../../views/header/header.ftl"]
+    [#include "../../views/header/header.ftlh"]
   </div>
   <div class="layout--content">
     [#list features as feature]
@@ -121,7 +121,7 @@
         </form>
       </turbo-frame>
     [#else]
-      <p class="feature-toggles--no-toggles">${noFeaturesMessage!""}</p>
+      <p class="feature-toggles--no-toggles">${noFeaturesMessage?no_esc!}</p>
     [/#list]
   </div>
 </div>

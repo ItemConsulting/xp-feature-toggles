@@ -1,6 +1,6 @@
 import "./toggle.css";
 import type { Meta, StoryObj } from "@itemconsulting/xp-storybook-utils";
-import id from "./toggle.ftl";
+import id from "./toggle.ftlh";
 
 export default {
   title: "Components/Toggle",
