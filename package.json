@@ -1,6 +1,6 @@
 {
   "name": "xp-feature-toggles",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Admin tool to toggle on and off features in your applications",
   "license": "MIT",
   "private": true,
