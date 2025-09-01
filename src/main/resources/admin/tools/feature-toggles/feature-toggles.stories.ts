@@ -1,6 +1,6 @@
 import "./feature-toggles.css";
 import "../../views/toggle/toggle.css";
-import id from "./feature-toggles.ftl";
+import id from "./feature-toggles.ftlh";
 import FormSubmitOnChange from "../../../assets/scripts/form-submit-on-change";
 import { action } from "@storybook/addon-actions";
 import type { Meta, StoryObj } from "@itemconsulting/xp-storybook-utils";
